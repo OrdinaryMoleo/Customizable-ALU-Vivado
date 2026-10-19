@@ -12,7 +12,7 @@ A highly flexible, latch-free, parameter-driven Arithmetic Logic Unit (ALU) desi
 ---
 
 ## Instruction Set Architecture (ISA)
-The ALU uses a 5-bit opcode supporting 19 distinct operations (leaving 13 slots open for future expansion):
+The ALU uses a 5-bit opcode supporting 19 distinct operations (leaving 13 slots open for future changes):
 
 | Opcode Range | Operation Categories | Supported Functions |
 | :--- | :--- | :--- |
@@ -25,4 +25,4 @@ The ALU uses a 5-bit opcode supporting 19 distinct operations (leaving 13 slots 
 
 ## Verification & Simulation
 * Verified using a custom behavioral testbench (`tb_alu.v`) in **Xilinx Vivado (XSim)**.
-* Exhaustively tested across all 19 operational branches to validate data paths, bitwise logic, and carry/overflow handling.
+* Tested across all 19 operational branches to validate all operations.
