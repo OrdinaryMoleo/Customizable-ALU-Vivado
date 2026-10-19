@@ -1,0 +1,16 @@
+# Vivado generated directories and files
+*.jou
+*.log
+*.mif
+*.wdb
+*.pb
+*.xpr.data
+*.xpr.local
+.ip_user_files/
+.hw/
+.cache/
+.sim/
+.runs/
+.srcs/
+.gen/
+.Xil/
